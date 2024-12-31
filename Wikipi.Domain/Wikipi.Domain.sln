@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipi.Domain", "Wikipi.Domain\Wikipi.Domain.csproj", "{97A13C95-29FF-4C35-8199-62DABA67C78C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipi.Domain.Test", "Wikipi.Domain.Test\Wikipi.Domain.Test.csproj", "{B4E4E755-3549-4C11-81FE-F518E67E0A56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{97A13C95-29FF-4C35-8199-62DABA67C78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A13C95-29FF-4C35-8199-62DABA67C78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A13C95-29FF-4C35-8199-62DABA67C78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
