@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Wikipi.Domain.Controllers;
 
-namespace Wikipi.Domain.Test
+namespace Wikipi.Domain.Test.Controllers
 {
     [TestClass]
     public sealed class HealthCheckControllerTests
@@ -13,11 +13,11 @@ namespace Wikipi.Domain.Test
             var controller = new HealthCheckController();
 
             // Act
-            var result  = controller.Get();
+            var result = controller.Get();
 
             // Assert
             Assert.IsNotNull(result);
-           
+
         }
     }
 }

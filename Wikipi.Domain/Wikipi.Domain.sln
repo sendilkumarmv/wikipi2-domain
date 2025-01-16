@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipi.Domain", "Wikipi.Domain\Wikipi.Domain.csproj", "{97A13C95-29FF-4C35-8199-62DABA67C78C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipi.Domain.Test", "Wikipi.Domain.Test\Wikipi.Domain.Test.csproj", "{B4E4E755-3549-4C11-81FE-F518E67E0A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipi.Domain.Repository", "Wikipi.Domain.Repository\Wikipi.Domain.Repository.csproj", "{3CDC3576-D743-46D2-A4D4-E0C171CB8447}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E4E755-3549-4C11-81FE-F518E67E0A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDC3576-D743-46D2-A4D4-E0C171CB8447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDC3576-D743-46D2-A4D4-E0C171CB8447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDC3576-D743-46D2-A4D4-E0C171CB8447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDC3576-D743-46D2-A4D4-E0C171CB8447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
