@@ -27,15 +27,21 @@ namespace Wikipi.Domain
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            
+
             builder.Services.AddScoped<IProductsHandler, ProductsHandler>();
+            builder.Services.AddScoped<IUserHandler, UserHandler>();
             builder.Services.AddScoped<IDbFactory, DbFactory>();
             builder.Services.AddScoped<IBaseRepository, MongoDBRepository>();
 
             builder.Services.AddAutoMapper(typeof(ProductMapper));
+            builder.Services.AddCors(b => b.AddPolicy("local",
+                x => x.WithOrigins("https://localhost:4200")
+                     .AllowAnyHeader()
+                     .AllowAnyMethod()
+                ));
 
             var app = builder.Build();
-
+            app.UseCors("local");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
